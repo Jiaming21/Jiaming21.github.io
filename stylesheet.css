@@ -153,7 +153,13 @@ span.highlight {
 }
 
 .journal-cover {
+  aspect-ratio: 1 / 1;
   object-position: center;
+}
+
+.poster-thumbnail {
+  aspect-ratio: 3 / 4;
+  max-height: 220px;
 }
 
 @media (max-width: 640px) {
